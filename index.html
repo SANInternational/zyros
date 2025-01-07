@@ -19,24 +19,37 @@
 <body>
     <div class="w-full flex flex-col p-4 items-center justify-center text-center bg-gray-950 text-white"
         style="min-height: 100vh;">
-        <a href="https://www.zyros.com">
-            <img src="./images/zyros-flower-logo_gold.png" class="h-8" style="height:14rem!important;">
-        </a>
-        <div class="flex flex-col items-center pt-6">
-            <div class="flex space-x-2 pt-3">
-                <a href="https://apps.apple.com/us/app/zyros/id1455838828" target="_blank">
-                    <div target="_blank" class="flex flex-col items-center cursor-pointer">
-                        <img src="./images/app-store.svg" class="h-12">
-                    </div>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.zyros&hl=en&gl=US" target="_blank">
-                    <div class="flex flex-col items-center cursor-pointer">
-                        <img src="./images/google-play.svg" class="h-12">
-                    </div>
-                </a>
-            </div>
+        
+        <div class="flex flex-col items-center h-24">
+            <!-- This keeps the middle content centered if needed -->
+        </div>
+        <!-- Centered slogan -->
+        <div class="flex-grow flex items-center justify-center">
+            <a href="https://www.zyros.com">
+                <img src="./images/slogan.png" class="h-8" style="height:5rem!important;">
+            </a>
+        </div>
+
+        <!-- Move the app icons up without affecting the slogan -->
+        <div class="flex space-x-2 mt-auto mb-12"> <!-- mt-auto ensures it stays near the bottom -->
+            <a href="https://apps.apple.com/us/app/zyros/id1455838828" target="_blank">
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./images/app-store.svg" class="h-12">
+                </div>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.zyros&hl=en&gl=US" target="_blank">
+                <div class="flex flex-col items-center cursor-pointer">
+                    <img src="./images/google-play.svg" class="h-12">
+                </div>
+            </a>
+        </div>
+
+        <div class="flex flex-col items-center h-24">
+            <!-- This keeps the middle content centered if needed -->
         </div>
     </div>
 </body>
+
+
 
 </html>
